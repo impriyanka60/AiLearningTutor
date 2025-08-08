@@ -1,0 +1,89 @@
+/* ConceptMap.css - Modern & Elegant UI */
+
+.concept-map-wrapper {
+  padding: 32px;
+  background-color: #f9f9f6;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  min-height: 100vh;
+}
+
+.concept-header {
+  margin-bottom: 24px;
+}
+
+.concept-title {
+  font-size: 28px;
+  color: #2c3e50;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.concept-subtitle {
+  color: #6c757d;
+  font-size: 16px;
+}
+
+.concept-card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 24px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.05);
+  border: 1px solid #e0e0e0;
+}
+
+.concept-card-title {
+  font-size: 20px;
+  font-weight: 500;
+  color: #34495e;
+  margin-bottom: 16px;
+}
+
+.input-group {
+  margin-bottom: 20px;
+}
+
+.input-label {
+  display: block;
+  margin-bottom: 6px;
+  color: #333;
+  font-weight: 500;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #dcdcdc;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: border-color 0.2s;
+}
+
+.input-field:focus {
+  border-color: #80bfff;
+  outline: none;
+  background-color: #fefefe;
+}
+
+.generate-button {
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.generate-button:hover {
+  background-color: #357abd;
+}
+
+.reactflow-container {
+  height: 500px;
+  margin-top: 24px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #f4f7fb;
+  overflow: hidden;
+}

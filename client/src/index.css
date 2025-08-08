@@ -1,0 +1,14 @@
+/* AI Learning Tutor - Main Styles */
+
+/* Import all style modules */
+@import './styles/theme.css';
+@import './styles/AuthPages.css';
+@import './styles/AppLayout.css';
+@import './styles/Components.css';
+@import './styles/TopBar.css';
+@import './styles/Sidebar.css';
+
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+/* Global reset and base styles are handled in theme.css */

@@ -1,0 +1,115 @@
+/* Chat.css - Elegant UI for AI Chat Assistant */
+
+.page-wrapper {
+  padding: 32px;
+  background-color: #f8e5be;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  min-height: 100vh;
+}
+
+.page-header {
+  margin-bottom: 24px;
+}
+
+.page-title {
+  font-size: 28px;
+  color: #2c3e50;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.page-description {
+  color: #6c757d;
+  font-size: 16px;
+}
+
+/* Content Card Layout */
+.content-card {
+  background-color: #f5f2cd;
+  border-radius: 12px;
+  border: 1px solid #e2e2e2;
+  padding: 24px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.04);
+}
+
+.content-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.content-card-title {
+  font-size: 20px;
+  color: #2f3542;
+  font-weight: 500;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-label {
+  display: block;
+  margin-bottom: 6px;
+  color: #333;
+  font-weight: 500;
+}
+
+.form-input {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #dcdcdc;
+  border-radius: 8px;
+  font-size: 15px;
+  background-color: #ffffffdd;
+  transition: border-color 0.2s ease;
+}
+
+.form-input:focus {
+  border-color: #80bfff;
+  outline: none;
+}
+
+.auth-button {
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.auth-button:hover {
+  background-color: #357abd;
+}
+
+/* Chat response area */
+.chat-response {
+  background-color: #dae7fb;
+  border: 1px solid #dfe6ec;
+  border-radius: 10px;
+  padding: 16px;
+  margin-top: 20px;
+}
+
+.response-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+.response-header h3 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #3b3b3b;
+}
+
+.response-content {
+  color: #2c3e50;
+  font-size: 15px;
+  line-height: 1.6;
+}

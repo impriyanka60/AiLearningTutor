@@ -1,0 +1,151 @@
+/* Code.css - Modern and Clean Split Layout for Code Explain */
+
+.page-wrapper {
+  padding: 32px;
+  background-color: #f9f9f6;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  min-height: 100vh;
+}
+
+.page-header {
+  margin-bottom: 24px;
+}
+
+.page-title {
+  font-size: 28px;
+  color: #2c3e50;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.page-description {
+  color: #6c757d;
+  font-size: 16px;
+}
+
+/* SPLIT PANEL LAYOUT */
+.split-layout {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.split-panel {
+  flex: 1 1 48%;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  border: 1px solid #e2e2e2;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.04);
+}
+
+.split-panel-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 16px;
+}
+
+.split-panel-title {
+  font-size: 18px;
+  color: #2f3542;
+  font-weight: 500;
+}
+
+/* FORM GROUPS */
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-label {
+  display: block;
+  margin-bottom: 6px;
+  color: #333;
+  font-weight: 500;
+}
+
+.form-input {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #dcdcdc;
+  border-radius: 8px;
+  font-size: 15px;
+  transition: border-color 0.2s ease;
+  background-color: #ffffffc0;
+}
+
+.form-input:focus {
+  border-color: #80bfff;
+  outline: none;
+}
+
+/* BUTTON */
+.auth-button {
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.auth-button:hover {
+  background-color: #357abd;
+}
+
+/* EXPLANATION PANEL */
+.explanation-content {
+  padding: 12px;
+  background-color: #e8f4ce;
+  border-radius: 8px;
+  border: 1px solid #dfe6ec;
+  min-height: 300px;
+}
+
+.explanation-text {
+  font-family: 'Courier New', Courier, monospace;
+  white-space: pre-wrap;
+  color: #2c3e50;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+/* EMPTY STATE */
+.empty-state {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #a0a0a0;
+  text-align: center;
+  padding: 40px 10px;
+}
+
+.empty-state svg {
+  margin-bottom: 12px;
+}
+
+/* LOADING STATE */
+.loading-state {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #6c757d;
+  padding: 30px 0;
+}
+
+.loading-spinner {
+  border: 4px solid #f3f3f3;
+  border-top: 4px solid #4a90e2;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  animation: spin 1s linear infinite;
+  margin-bottom: 10px;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
