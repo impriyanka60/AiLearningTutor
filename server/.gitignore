@@ -10,4 +10,4 @@ logs
 
 # misc
 .DS_Store
-.credentials.json
+server/credentials.json
